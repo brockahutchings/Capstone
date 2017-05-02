@@ -36,7 +36,7 @@ shinyUI(fluidPage(
             h3("further documentation"),
             p("A site hosting the milestone project which demonstrates my origional data analysis approach can be found at: ", a("milestone project", href = "http://rpubs.com/BrockH/272857", target="_blank")),
             p("A brief presentation introducing the final project can be found at: ", a("project pitch", href = "", target="_blank")),
-            p("The full source code for the final project can be found at: ", a("code Repository", href = "", target="_blank"))
+            p("The full source code for the final project can be found at: ", a("code Repository", href = "https://github.com/brockahutchings/Capstone", target="_blank"))
         )
     ),
     tags$script('
