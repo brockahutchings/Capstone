@@ -1,0 +1,61 @@
+---
+title: "Coursera Data Science Capstone Project"
+author: "Brock Hutchings"
+date: "May 2nd 2017"
+output: slidy_presentation
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#Introduction
+
+People around the world are spending an increasing amount of time on their mobile devices. A large portion of this time is spent typing using inefficient tools.  This project addresses this inefficiency by using a smart algorythem to help predict the next word the user is looking for.  
+
+#The goal of the project:
+
+The intention of the project is to use the dataset provided by SwiftKey to build an app that predict the next word the user is looking for. 
+
+The project is the capstone for the data science specialization at Johns Hopkins University.
+
+#The process:
+
+1. Download and sampled 1% of the dataset provided by swiftkeys that can be found at: [Swiftkey](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+
+2. Clean the training dataset by:
+
+      1. removing non english phrases
+  
+      2. removing punctuation
+  
+      3. removing numbers
+  
+      4. stripping the white spaces 
+  
+      5. converting to lower case
+
+3. Generate a trigram of the phrases and their frequencies.
+
+4. Generate a model combining the words and organizing them into groups.
+
+5. Calculate the probability frequency of the words combinations.
+
+6. Run a validation test to get the accuracy the algorithm using a portion of the words for each dataset.
+
+#Shiny app:
+
+The shiny app can be found at the following URL: [Word Prediction App]("url")
+
+#Experience:
+
+I am still looking into ways of inproving the algorythem so that suggested words are more accurate.  That being said the words suggested are well beyond the level i expected when i started this project and i am particualairilly pleased with the increase in speed from the capstone project.  I feel that the biggest flaw in predictions is when there are multiple options.  FOr example the sentence "i would like" has too many possible options and rating and ordering them is too challenging for the current algorythem to predict what the user was looking for.
+
+
+#Further Detail:
+
+If you desire further detail the source code can be found at:
+
+[Word Prediction](github URL)
+
+
